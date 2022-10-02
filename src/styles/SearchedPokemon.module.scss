@@ -1,0 +1,48 @@
+.searchedPokemonContainer { 
+  max-width: 380px;
+  border-radius: 1.5rem;
+  padding: 1.5rem 1rem 2rem; 
+  text-align: center;
+  margin-block: 4rem 2rem;
+  margin-inline: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+
+  .name {
+    font-size: var(--fs-6);
+    font-weight: 500;
+  }
+
+  img {
+    width: 200px;
+    height: 200px;
+    margin-inline: auto;
+  }
+
+  .statsContainer {
+    display: grid;
+    grid-template-areas: 
+      "hp exp type"
+      "height weight speed";
+      gap: 20px;
+
+    p {
+      font-size: var(--fs-10);
+      display: grid;
+      gap: 3px;
+
+      span {
+        text-shadow: 1px 1px 1px black, 0px 0px 1px black;
+        color: var(--clr-grey);
+      }
+    }
+  }
+}
+
+@media (min-width: 1000px) {
+  .searchedPokemonContainer {
+    margin-block: 3rem 2rem;
+  }
+}

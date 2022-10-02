@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
+:root {
+
+  /* text and buttons */
+  --clr-orange: rgb(255, 145, 0);
+  --clr-grey: rgb(156, 156, 156);
+
+  /* font sizes */
+  --fs-1: 3rem;
+  --fs-2: 2.5rem;
+  --fs-3: 2.2rem;
+  --fs-4: 2rem;
+  --fs-5: 1.8rem;
+  --fs-6: 1.5rem;
+  --fs-7: 1.3rem;
+  --fs-8: 1.2rem;
+  --fs-9: 1.05rem;
+  --fs-10: 0.9rem;
+}
+
+@media (min-width: 800px) {
+  :root {
+    --fs-1: 3.2rem;
+    --fs-2: 2.7rem;
+    --fs-3: 2.4rem;
+    --fs-4: 2.2rem;
+    --fs-5: 1.95rem;
+    --fs-6: 1.6rem;
+    --fs-7: 1.4rem;
+    --fs-8: 1.3rem;
+    --fs-9: 1.1rem;
+    --fs-10: 1rem;
+  }
+  
+}
+
+@media (min-width: 1000px) {
+  :root {
+    --fs-1: 3.4rem;
+    --fs-2: 2.8rem;
+    --fs-3: 2.5rem;
+    --fs-4: 2.3rem;
+    --fs-5: 2.05rem;
+    --fs-6: 1.7rem;
+    --fs-7: 1.5rem;
+    --fs-8: 1.4rem;
+    --fs-9: 1.2rem;
+    --fs-10: 1.1rem;
+  }
+  
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.2;
+  -webkit-font-smoothing: antialiased;
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+input, button, textarea, select {
+  font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}

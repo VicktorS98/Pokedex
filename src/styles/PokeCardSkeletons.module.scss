@@ -1,0 +1,23 @@
+.cardSkeletonsContainer {
+  padding-top: 3rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+
+  div {
+    padding: 10px;
+    margin: 0 auto; 
+    display: grid;
+    gap: 15px
+  }
+}
+
+
+
+@media (min-width: 1200px) {
+  .cardSkeletonsContainer {
+    padding-top: 4rem;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+  }
+}

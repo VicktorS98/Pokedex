@@ -1,0 +1,11 @@
+.appContainer {
+  --padding: 2rem;
+
+  padding-inline: var(--padding);
+}
+
+@media (min-width: 1200px) {
+  .appContainer {
+    --padding: 10rem;
+  }
+}
